@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* Common background and font */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('/image/bg1.jpg'); /* Place bg1.jpg in src/main/webapp/image/ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared navbar style */
+.navbar {
+    background-color: #ffcad4;
+    color: #2a2a2a;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .links a {
+    color: #2a2a2a;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.navbar .links a:hover {
+    color: #800080;
+}
+
+/* Centered card container */
+.card-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 400px;
+    margin: 80px auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading style */
+.card-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Submit button */
+button {
+    padding: 12px 25px;
+    background-color: #caffbf;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a0e9a3;
+}
+
+/* Home welcome section */
+.home-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 60%;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+.home-container h1 {
+    font-size: 32px;
+    color: #2a2a2a;
+}
+
+.home-container p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
