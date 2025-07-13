@@ -29,6 +29,7 @@ public class Controller1 {
     public String landing() {
         return "redirect:/signin";
     }
+    
 
   
     @GetMapping("/home")
